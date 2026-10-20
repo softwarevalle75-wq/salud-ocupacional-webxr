@@ -1,9 +1,12 @@
 {
-  "version": "ganchos-20261020",
+  "version": "ganchos-20261020-r2",
   "date": "2026-10-20",
   "mode": "practice",
   "course": "complete",
   "updatedScene": "3PlantaAltura",
   "changes": ["hook-anchor pose", "harness cable endpoints", "paired-anchor movement", "distinct connect and release sounds"],
-  "playModeTests": { "passed": 4, "failed": 0 }
+  "playModeTests": { "passed": 4, "failed": 0 },
+  "buildResult": "Succeeded",
+  "buildErrors": 0,
+  "buildWarnings": 25
 }

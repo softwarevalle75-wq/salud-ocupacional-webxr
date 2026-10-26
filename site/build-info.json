@@ -1,18 +1,19 @@
 {
-  "version": "acceso-qr-20261026",
-  "date": "2026-10-26",
-  "mode": "practice",
+  "build": {
+    "errors": 0,
+    "warnings": 76
+  },
+  "tests": {
+    "unityGatewayPassed": 1,
+    "webglSyntheticVideo": "passed",
+    "scannerPassed": 14
+  },
   "course": "complete",
-  "scenes": ["ScenaElementroP", "ScenaExample", "3Planta", "3PlantaAltura", "OficinaSST"],
-  "changes": [
-    "Replace manual Nexus code instructions with QR access instructions",
-    "Reserve text entry for the developer code",
-    "Remove manual Nexus token submission from the login panel",
-    "Explain that QR access requires the Nexus connection"
-  ],
-  "buildResult": "Succeeded",
-  "buildErrors": 0,
-  "buildWarnings": 73,
+  "browserCameraQrScannerImplemented": true,
   "productionNexusConnected": false,
-  "browserCameraQrScannerImplemented": false
+  "date": "2026-10-26",
+  "scenes": 5,
+  "version": "lector-qr-20261026",
+  "mode": "practice",
+  "physicalCameraTested": false
 }

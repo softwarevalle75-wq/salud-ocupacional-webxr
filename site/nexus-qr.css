@@ -1,0 +1,21 @@
+#nexus-qr-modal{position:fixed;inset:0;z-index:10000;display:flex;align-items:center;justify-content:center;padding:max(12px,env(safe-area-inset-top)) max(12px,env(safe-area-inset-right)) max(12px,env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left));background:#03101ee8;color:#eafaff;overflow:auto;font:16px/1.4 system-ui,sans-serif;touch-action:manipulation}
+#nexus-qr-modal .nq-card{width:min(920px,100%);max-height:100%;overflow:auto;border:1px solid #3ebbc3;border-radius:20px;padding:22px;background:linear-gradient(145deg,#102e40,#081724);box-shadow:0 0 45px #22b7d22a,0 20px 80px #0009}
+#nexus-qr-modal header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}
+#nexus-qr-modal .nq-eyebrow{font-size:11px;letter-spacing:.15em;color:#66e4df}
+#nexus-qr-modal h2{margin:3px 0 0;font-size:25px;line-height:1.2}
+#nexus-qr-modal .nq-layout{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(240px,1fr);gap:22px;align-items:center}
+#nexus-qr-modal .nq-preview{position:relative;aspect-ratio:4/3;min-height:150px;max-height:65dvh;background:radial-gradient(ellipse,#123d4d,#030c15);border:1px solid #287788;border-radius:14px;overflow:hidden}
+#nexus-qr-modal video{width:100%;height:100%;display:block;object-fit:contain}
+#nexus-qr-modal .nq-corners{position:absolute;inset:12%;border:2px solid #6ef5dc99;border-radius:14px;pointer-events:none}
+#nexus-qr-modal .nq-badge{position:absolute;left:12px;bottom:12px;padding:4px 9px;border-radius:8px;background:#071827c9;color:#70f4df;font-size:11px;letter-spacing:.13em}
+#nexus-qr-modal p{font-size:15px;line-height:1.45;margin:0 0 12px;color:#e2f5fb}
+#nexus-qr-modal .nq-status{min-height:64px}
+#nexus-qr-modal .nq-status[data-error=true]{color:#ffc4aa}
+#nexus-qr-modal .nq-privacy{font-size:12px;color:#aac8d4}
+#nexus-qr-modal button{width:100%;min-height:44px;margin:5px 0;padding:10px 16px;border:1px solid #4ac7d0;border-radius:12px;color:white;font:600 15px system-ui;background:linear-gradient(135deg,#087f93,#284777);cursor:pointer}
+#nexus-qr-modal button:disabled{opacity:.5;cursor:default}
+#nexus-qr-modal button:focus-visible{outline:3px solid #a4fff4;outline-offset:3px}
+#nexus-qr-modal .nq-close{width:44px;min-width:44px;margin:0;padding:8px}
+#nexus-qr-modal .nq-cancel{background:#122a3a;border-color:#547c90}
+@media(max-height:500px){#nexus-qr-modal .nq-card{padding:12px 16px;border-radius:14px}#nexus-qr-modal header{margin-bottom:8px}#nexus-qr-modal h2{font-size:19px}#nexus-qr-modal .nq-layout{gap:16px;grid-template-columns:minmax(0,1.3fr) minmax(230px,1fr)}#nexus-qr-modal .nq-preview{max-height:calc(100dvh - 110px)}#nexus-qr-modal p{font-size:13px;margin-bottom:7px}#nexus-qr-modal .nq-privacy{font-size:11px}#nexus-qr-modal .nq-status{min-height:0}#nexus-qr-modal button{margin:3px 0;padding:8px;font-size:14px}}
+@media(max-width:600px) and (min-height:501px){#nexus-qr-modal .nq-layout{grid-template-columns:1fr;gap:12px}#nexus-qr-modal .nq-preview{max-height:36dvh}#nexus-qr-modal .nq-card{padding:16px}#nexus-qr-modal h2{font-size:21px}}

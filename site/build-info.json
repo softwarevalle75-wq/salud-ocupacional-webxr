@@ -1,12 +1,33 @@
 {
-  "version": "ganchos-20261020-r2",
-  "date": "2026-10-20",
+  "version": "transiciones-20261026",
+  "date": "2026-10-26",
   "mode": "practice",
   "course": "complete",
-  "updatedScene": "3PlantaAltura",
-  "changes": ["hook-anchor pose", "harness cable endpoints", "paired-anchor movement", "distinct connect and release sounds"],
-  "playModeTests": { "passed": 4, "failed": 0 },
+  "scenes": [
+    "ScenaElementroP",
+    "ScenaExample",
+    "3Planta",
+    "3PlantaAltura",
+    "OficinaSST"
+  ],
+  "changes": [
+    "Ignore deselected legacy navigation toggles",
+    "Serialize scene transitions and consume loading destinations once",
+    "Own UI input actions per EventSystem across scene changes",
+    "Initialize inventory toggles without navigation callbacks",
+    "Disable extinguisher-label colliders before parenting"
+  ],
+  "playModeTests": {
+    "passed": 6,
+    "failed": 0
+  },
   "buildResult": "Succeeded",
   "buildErrors": 0,
-  "buildWarnings": 25
+  "buildWarnings": 25,
+  "browserValidation": {
+    "desktopEpp": "passed",
+    "mobileInterfaceExtintores": "passed",
+    "consoleErrors": 0,
+    "physicalPhonesTested": false
+  }
 }

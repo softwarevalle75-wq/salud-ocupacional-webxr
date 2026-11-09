@@ -1,19 +1,23 @@
 {
-  "build": {
-    "errors": 0,
-    "warnings": 76
-  },
-  "tests": {
-    "unityGatewayPassed": 1,
-    "webglSyntheticVideo": "passed",
-    "scannerPassed": 14
-  },
-  "course": "complete",
-  "browserCameraQrScannerImplemented": true,
-  "productionNexusConnected": false,
-  "date": "2026-10-26",
-  "scenes": 5,
-  "version": "lector-qr-20261026",
+  "date": "2026-11-09",
+  "qrScanner": "headset browser before immersive VR",
+  "version": "interfaz-20261109",
   "mode": "practice",
-  "physicalCameraTested": false
+  "tests": {
+    "failed": 0,
+    "webglMobileInformation": "verified: select/open/close/reopen; zero console errors",
+    "qrAndPlatformPassed": 18,
+    "playModePassed": 21
+  },
+  "physicalAndroidTested": false,
+  "productionNexusConnected": false,
+  "scenes": 5,
+  "course": "complete",
+  "physicalQuestTested": false,
+  "build": {
+    "result": "Succeeded",
+    "errors": 0,
+    "warnings": 76,
+    "bytes": 315585572
+  }
 }

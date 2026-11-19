@@ -1,19 +1,20 @@
 {
-  "Build/WebComplete.07d066756915.data.unityweb": {
-    "size": 272448925,
+  "Build/QAAlturas20261119r2.data.unityweb": {
+    "size": 298974353,
     "chunks": [
-      "Build/WebComplete.data.unityweb.000.7f797d6e246d.part",
-      "Build/WebComplete.data.unityweb.001.241a5cb66fdf.part",
-      "Build/WebComplete.data.unityweb.002.e0f8edc19261.part",
-      "Build/WebComplete.data.unityweb.003.a03bf82864f8.part",
-      "Build/WebComplete.data.unityweb.004.0645a321d77e.part",
-      "Build/WebComplete.data.unityweb.005.e8d9047e2dc7.part",
-      "Build/WebComplete.data.unityweb.006.c0781b5d62e5.part",
-      "Build/WebComplete.data.unityweb.007.02cefbfaf20f.part",
-      "Build/WebComplete.data.unityweb.008.d290a5a720fb.part",
-      "Build/WebComplete.data.unityweb.009.551d2e143cab.part",
-      "Build/WebComplete.data.unityweb.010.de753b828e5b.part"
+      "Build/QAAlturas20261119r2.data.unityweb.000.c9ca00f7dca6.part",
+      "Build/QAAlturas20261119r2.data.unityweb.001.5222697df289.part",
+      "Build/QAAlturas20261119r2.data.unityweb.002.9bda2fe5bc81.part",
+      "Build/QAAlturas20261119r2.data.unityweb.003.758b9dc8eda4.part",
+      "Build/QAAlturas20261119r2.data.unityweb.004.b26ca8ba8a1f.part",
+      "Build/QAAlturas20261119r2.data.unityweb.005.b9b8b0db3e73.part",
+      "Build/QAAlturas20261119r2.data.unityweb.006.cbd6fa1ffb56.part",
+      "Build/QAAlturas20261119r2.data.unityweb.007.d276c34d18dc.part",
+      "Build/QAAlturas20261119r2.data.unityweb.008.15cb82a235fc.part",
+      "Build/QAAlturas20261119r2.data.unityweb.009.2dbd388b9312.part",
+      "Build/QAAlturas20261119r2.data.unityweb.010.85061209d251.part",
+      "Build/QAAlturas20261119r2.data.unityweb.011.ff7bfe65aae9.part"
     ],
-    "sha256": "07d066756915fe011a52af5b0e08c0880bd9361a9dad865f7d1d5ea28bfe9403"
+    "sha256": "12b232d6a4d181aa07ba0958041ae3476602dba35ca4a0f5dde46a2865ed3908"
   }
 }

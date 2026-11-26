@@ -1,25 +1,15 @@
 {
-  "date": "2026-11-19",
-  "version": "alturas-20261119-r2",
+  "version": "webvr-20261126",
+  "date": "2026-11-26",
   "mode": "practice",
   "course": "complete",
   "scenes": 5,
   "buildScenes": 7,
-  "qrScanner": "headset browser before immersive VR",
-  "physicalAndroidTested": false,
-  "physicalQuestTested": false,
   "productionNexusConnected": false,
-  "tests": {
-    "alturaPlayModePassed": 14,
-    "alturaWebAudioEditModePassed": 1,
-    "checkpointGatewayLocalPassed": 12,
-    "desktopAndEmulatedMobile": "Verified 3PlantaAltura and interactive harness inspection in Chromium",
-    "questUsb": "Browser and local server reachable; immersive interaction not verified"
-  },
   "build": {
     "result": "Succeeded",
     "errors": 0,
-    "warnings": 24,
-    "bytes": 342141103
+    "warnings": 70,
+    "bytes": 342128654
   }
 }

@@ -1,5 +1,5 @@
 {
-  "version": "webvr-paneles-20261126",
+  "version": "webvr-manos-20261126",
   "date": "2026-11-26",
   "mode": "practice",
   "course": "complete",
@@ -10,6 +10,7 @@
     "result": "Succeeded",
     "errors": 0,
     "warnings": 70,
-    "bytes": 342124991
-  }
+    "bytes": 342123135
+  },
+  "handTracking": true
 }
